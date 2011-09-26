@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="#000000"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal" >
+	<ImageView
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:src="@drawable/logo" />
+	<Button
+		android:id="@+id/report_kill"
+	    android:layout_height="wrap_content"
+	    android:layout_width="wrap_content"
+	    android:text="@string/report_a_kill"
+	    android:visibility="gone"
+	    android:onClick="reportKill" />
+	<Button
+		android:id="@+id/my_account"
+	    android:layout_height="wrap_content"
+	    android:layout_width="wrap_content"
+	    android:text="@string/my_account"
+	    android:visibility="gone"
+	    android:onClick="myAccount" />
+	<Button
+		android:id="@+id/register"
+	    android:layout_height="wrap_content"
+	    android:layout_width="wrap_content"
+	    android:text="@string/register"
+	    android:visibility="gone"
+	    android:onClick="register" />
+	<Button
+		android:id="@+id/logout_button"
+	    android:layout_height="wrap_content"
+	    android:layout_width="wrap_content"
+	    android:text="@string/logout"
+	    android:visibility="gone"
+	    android:onClick="logout" />
+	<Button
+		android:id="@+id/login_button"
+	    android:layout_height="wrap_content"
+	    android:layout_width="wrap_content"
+	    android:text="@string/login"
+	    android:onClick="login" />
+	<Button
+	    android:layout_height="wrap_content"
+	    android:layout_width="wrap_content"
+	    android:text="@string/settings"
+	    android:onClick="settings" />
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="@string/version" />
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="@string/author" />
+</LinearLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="#000000"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+	<EditText
+		android:id="@+id/fname"
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:layout_gravity="center"
+		android:maxLength="20"
+		android:text="@string/first_name" />
+	<EditText
+		android:id="@+id/lname"
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:layout_gravity="center"
+		android:maxLength="20"
+		android:text="@string/last_name" />
+	<EditText
+		android:id="@+id/reg_username"
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:layout_gravity="center"
+		android:maxLength="20"
+		android:text="@string/username" />
+	<EditText
+		android:id="@+id/reg_password"
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:layout_gravity="center"
+		android:maxLength="20"
+		android:text="@string/password" />
+	<EditText
+		android:id="@+id/reg_confirm_password"
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:layout_gravity="center"
+		android:maxLength="20"
+		android:text="@string/confirm_password" />
+	<EditText
+		android:id="@+id/email"
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:layout_gravity="center"
+		android:maxLength="60"
+		android:text="@string/email" />
+	<CheckBox
+		android:id="@+id/oz_opt"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:checked="false"
+		android:text="@string/oz_opt" />
+	<Button
+	    android:layout_height="wrap_content"
+	    android:layout_width="wrap_content"
+	    android:text="@string/register"
+	    android:onClick="register" />
+	<Button
+	    android:layout_height="wrap_content"
+	    android:layout_width="wrap_content"
+	    android:text="@string/cancel"
+	    android:onClick="cancel" />
+</LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="#000000"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <EditText
+    	android:id="@+id/tag_id"
+    	android:layout_height="wrap_content"
+    	android:layout_width="fill_parent"
+    	android:layout_gravity="center"
+    	android:text="@string/tag_id" />
+    <Spinner 
+        android:id="@+id/day"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TimePicker
+    	android:id="@+id/time"
+    	android:layout_height="wrap_content"
+    	android:layout_width="wrap_content" />
+    <Spinner 
+        android:id="@+id/feed1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Spinner 
+        android:id="@+id/feed2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+	<Button
+	    android:layout_height="wrap_content"
+	    android:layout_width="wrap_content"
+	    android:text="@string/submit"
+	    android:onClick="reportKill" />
+</LinearLayout>
